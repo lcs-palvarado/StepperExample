@@ -33,6 +33,10 @@ struct ContentView: View {
                     .font(.system(size: 96))
             }
                         
+    Stepper(value: $base, label: {
+        Text("Base")
+    })
+            
             Spacer()
         }
         .padding()
